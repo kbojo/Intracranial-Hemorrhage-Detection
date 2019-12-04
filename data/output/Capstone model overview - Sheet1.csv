@@ -1,0 +1,13 @@
+Name,Model 1,Model 4,Model 10,Model 2
+Model,2 x (Conv2D + MaxPool) + 2 Dense,"InceptionResNetV2, trainable=True                          |","InceptionV3, trainable=False        ","VGG 16 , trainable = False                       "
+Augemntation,Flip,"Flip, Crop",-,Flip
+Windowing,Single window,BSS window,BSS window,Single window
+Class Balancing,Oversampling 2 positive,Oversampling 3 positive,"Oversampling 1,5 positive",Oversampling 2 positive
+Loss Function,Weighted Log Loss,Binary crossentropy,Weighted Log Loss,Binary crossentropy
+Regularization,"Drop Out Layers 0.5, Early Stopping",Drop Out Layers 0.3,Drop out 0.2,"Early Stopping, Drop Out Layers 0.3"
+Number of Epoch run,14,3,5,50
+Time Run (h),3,10.5,6,3
+Test Loss,0.3614,0.1031,0.0823,0.322
+Validation Loss,0.3276,0.0868,0.0765,0.3136
+Kaggle Score,0.50632,0.42592,0.39061,0.52307
+Kaggle Rank,410/1345 (31%),405/1354 (30%),403/1345 (30%),410/1345 (31%)
