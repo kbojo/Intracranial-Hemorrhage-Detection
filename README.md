@@ -1,7 +1,7 @@
 #  Intracranial Hemorrhage Detection
 #### Kristina Joos
 
-![cover.png](attachment:./visuals/cover.png)
+![intracranial hemorrhage.png](./visuals/cover.png)
 
 
 ---
