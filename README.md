@@ -1,7 +1,7 @@
 #  Intracranial Hemorrhage Detection
 #### Kristina Joos
 
-![cover.png](attachment:cover.png)
+![cover.png](attachment:../visuals/cover.png)
 
 
 ---
@@ -11,10 +11,8 @@ __Diagnosing Intracranial Hemorrhage is time-consuming and challenging__
 
 Intracranial hemorrhage is bleeding that occurs in the head. Intracranial hemorrhages are a relatively common condition with many different causes (strokes, trauma, high blood pressure, aneurysms, blood clotting disorders). They can have dire consequences for the patient and often need immediate and intensive medical interventions.
 The diagnosis, especially identifying location and type of bleeding, is difficult and time-consuming. Radiologists use computed tomography scans to localize and characterize the hemorrhage to determine the risks for the patient and if immediate surgery is required.
-In this project, I will try to build a model to detect intracranial hemorrhage and the different subtypes, to help the medical community identify the presence, location, and subtype of bleeding to quickly and effectively treat affected patients.
-Subtypes of intracranial hemorrhages:
-<img src="attachment:subtypes.png" width="500">
 
+In this project, I will try to build a model to detect intracranial hemorrhage and the different subtypes, to help the medical community identify the presence, location, and subtype of bleeding to quickly and effectively treat affected patients.
 
 __Data and Modeling__
 
